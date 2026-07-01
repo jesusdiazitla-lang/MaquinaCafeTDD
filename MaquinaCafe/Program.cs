@@ -6,7 +6,7 @@ public class Program
     {
         var maquina = new MaquinaCafe();
 
-        Console.WriteLine("=== Máquina de Café (ITLA - Práctica TDD) ===");
+        Console.WriteLine("=== Máquina de Café 2 (ITLA - Práctica TDD) ===");
         Console.WriteLine();
         Console.WriteLine("Menú disponible:");
         foreach (var bebida in maquina.ObtenerMenu().Values)
